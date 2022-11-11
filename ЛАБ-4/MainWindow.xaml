@@ -9,14 +9,14 @@
     <Grid Margin="0,0,10,0">
         <TextBox x:Name="TX1" HorizontalAlignment="Left" Margin="37,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" Height="53"/>
         <Button Content="x^y" HorizontalAlignment="Left" Margin="334,212,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_7"/>
-        <Button x:Name="__3" Content="=" HorizontalAlignment="Left" Margin="334,267,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="__3_Click"/>
+        <Button x:Name="__3" Content="=" HorizontalAlignment="Left" Margin="224,322,0,0" VerticalAlignment="Top" Height="50" Width="160" Click="__3_Click"/>
         <Button Content="Х²" HorizontalAlignment="Left" Margin="334,157,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_2"/>
         <Button Content="√" HorizontalAlignment="Left" Margin="279,157,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_3"/>
         <Button Content="sin" HorizontalAlignment="Left" Margin="279,102,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_4"/>
         <Button Content="×" HorizontalAlignment="Left" Margin="224,267,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_1"/>
-        <Button x:Name="__2" Content="÷" HorizontalAlignment="Left" Margin="224,212,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="__2_Click"/>
-        <Button x:Name="__1" Content="-" HorizontalAlignment="Left" Margin="224,157,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="__1_Click"/>
-        <Button x:Name="__" Content="+" HorizontalAlignment="Left" Margin="224,102,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click" />
+        <Button x:Name="__2" Content="÷" HorizontalAlignment="Left" Margin="279,267,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="__2_Click"/>
+        <Button x:Name="__1" Content="-" HorizontalAlignment="Left" Margin="224,212,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="__1_Click"/>
+        <Button x:Name="__" Content="+" HorizontalAlignment="Left" Margin="224,157,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click" />
         <Button Content="1/x" HorizontalAlignment="Left" Margin="279,212,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_6"/>
         <Button x:Name="bt9" Content="9" HorizontalAlignment="Left" Margin="147,212,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="bt9_Click"/>
         <Button x:Name="bt6" Content="6" HorizontalAlignment="Left" Margin="147,157,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="bt6_Click"/>
@@ -29,6 +29,9 @@
         <Button x:Name="bt7" Content="7" HorizontalAlignment="Left" Margin="37,212,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="bt7_Click"/>
         <Button x:Name="bt4" Content="4" HorizontalAlignment="Left" Margin="37,157,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="bt4_Click"/>
         <Button x:Name="bt1" Content="1" HorizontalAlignment="Left" Margin="37,102,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="bt1_Click"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="224,102,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_8"/>
+        <TextBox x:Name="TX2" HorizontalAlignment="Left" Margin="37,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="50"/>
+        <Button Content="+/-" HorizontalAlignment="Left" Margin="334,267,0,0" VerticalAlignment="Top" Height="50" Width="50" Click="Button_Click_9"/>
 
     </Grid>
 </Window>
